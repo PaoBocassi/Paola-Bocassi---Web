@@ -1,10 +1,146 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&family=Poppins:wght@500;700&family=Volkhov:wght@700&display=swap');
 
+:root{
+  --color-primary: #667eea;
+  --color-secondary: #764ba2;
+  --botton-padding: 20px 40px;
+}
+
+.container{
+  width: 90%;
+  margin: 0 auto;
+  background-color: #EBEBEB;
+  overflow: hidden;
+  padding: 80px 0;
+  max-width: 1800px;
+  background-image: var(--background), url('../img/fondo.png')
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  position: relative;
+}
+
+.nav{
+  display: flex;
+  justify-content: flex-end;
+  height: 70px;
+  align-items: center;
+  font-weight: 700;
+}
+
+.nav--footer {
+  font-weight: 300;
+  justify-content: flex-start;
+}
+
+.nav__items {
+color: #5E6282;
+text-decoration: none;
+margin-right: 20px;
+padding: 10px 15px;
+font-weight: inherit;
+font-family: 'Open Sans', sans-serif;
+}
+
+.nav__items--footer {
+  padding: 10px;
+}
+
+.nav__items--cta {
+  border: 1px solid #5E6282;
+}
+
+.encabezado__container {
+  display: flex;
+  align-items: center;
+}
+
+.
+
+.conocenos__container{
+  width: 90%;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 80px 0;
+  max-width: 1200px;
+}
+
+.nuestrosproductos__container {
+  width: 90%;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 80px 0;
+  max-width: 1200px;
+}
+
 header {
   margin: 0;
   box-sizing: 0;
 }
-.encabezado__antetitulo {
-  color: #DF6951
+.encabezado__antetitulo{
+  color: #DF6951;
+  font-size: 20px;
   font-family: 'Poppins', sans-serif;
+}
+
+.encabezado__titulo{
+  color: #181E4B;
+  font-family: 'Volkhov', serif;
+  font-size: 84px;
+}
+
+.encabezado__subtitulo{
+  color: #5E6282;
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+}
+
+.encabezado__cta{
+  background-color: #F1A501;
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  padding: var(--botton-padding);
+  display: inline-block;
+  border-radius: 20px;
+}
+
+.conocenos__images {
+  box-sizing: content-box;
+  width: 5%;
+}
+
+.nuestrosproductos__images {
+  box-sizing: content-box;
+  width: 20%;
+}
+
+.conocenos__container{
+  padding-top: 0;
+  text-align: center;
+}
+
+.conocenos__antetitulo{
+  color: #5E6282;
+  font-family: 'Poppins', sans-serif;
+  font-size: 24px;
+}
+
+.conocenos__titulo{
+  color: #14183E;
+  font-family: 'Volkhov', serif;
+  font-size: 50px;
+}
+
+.conocenos__images{
+  display: inline-flex;
+
+}
+
+.conocenos__images__titulo{
+  color: #1E1D4C;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  display: inline-flex;
 }
